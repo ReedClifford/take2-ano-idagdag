@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+footer{
+    margin-top: 100px;
+    background-color: #003638;
+    text-align: center;
+    padding: 10px;
+    color: #53B8BB;
+}
+#container1{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/foster/bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(43, 41, 41);
+    height: 10vh;
+    padding: 30px;
+
+
+    
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+   
+
+
+}
+.nav-item{
+    list-style: none;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navlink{
+    text-decoration: none;
+    color: #F3F2C9;
+}
+.navlink:hover{
+    font-size: 1rem;
+    transition: ease-in-out 299ms;
+    text-decoration: underline;
+    color: #53B8BB;
+}
+
+/* Screen1 */
+.foster{
+    background-color: whitesmoke;
+    padding: 60px;
+    width: 700px;    
+    position: absolute;
+    right: 0;
+    top: 30%;
+    border-radius: 80px 0 0 80px;
+    
+}
+
+.foster h1{
+    font-size: 2.5rem; 
+    color: #055052;
+    font-weight: bold;
+    padding: 20px;
+}
+.foster p{
+    font-size: 1rem;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* SECTION2 */
+
+#container2{
+    height: 100vh;
+    background: rgb(236, 227, 217);
+    padding: 5px;
+    text-align: center;
+}
+.text{
+    margin: 20px;
+}
+.text h1{
+    margin: 20px;
+    color: #003638;
+    font-size: 2rem;
+    
+}
+.text p{
+    font-size: 1rem;
+    color: black;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.about h1{
+    margin: 20px;
+    border-bottom: solid 3px whitesmoke;
+}
+.box1{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/about/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    height: 70vh;
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 1s;
+    box-shadow: 0 5px 15px #003638;
+    color: #F3F2C9;
+}
+
+
+.box2{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/about/img2.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    height: 70vh;
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 1s;
+    box-shadow: 0 5px 15px #003638;
+    color: #F3F2C9;
+}
+.box3{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/about/img3.jpeg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    height: 70vh;
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 1s;
+    box-shadow: 0 5px 15px #003638;
+    color: #F3F2C9;
+}
+.box4{
+    flex: 1;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("/images/foster/about/img4.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    height: 70vh;
+    margin: 15px;
+    border-radius: 20px;
+    transition: transform 1s;
+    box-shadow: 0 5px 15px #003638;
+    color: #F3F2C9;
+}
+
+.box1:hover ,.box2:hover , .box3:hover ,.box4:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}

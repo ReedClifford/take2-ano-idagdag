@@ -1,0 +1,208 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    position: relative;
+    background-color: #003638;
+    text-align: center;
+    padding: 10px;
+    color: #53B8BB;
+}
+
+#donate1{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("../images/donate/bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    
+
+}
+
+/* NAVBAR */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(43, 41, 41);
+    height: 10vh;
+    padding: 30px;
+
+
+
+    
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+   
+
+
+}
+.nav-item{
+    list-style: none;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navlink{
+    text-decoration: none;
+    color: #F3F2C9;
+}
+.navlink:hover{
+    font-size: 1rem;
+    transition: ease-in-out 299ms;
+    text-decoration: underline;
+    color: #53B8BB;
+}
+
+/* MainTEXT */
+.donateText{
+    color: #F3F2C9;
+    width: 800px;
+    padding: 20px;
+    margin: 70px auto 200px;
+    line-height: 1.5;
+}
+.donateText h1{
+    
+    font-size: 2.5rem;
+}
+.donateText p{
+    margin: 40px;
+    font-size: 1rem;
+}
+.btn-donate{
+    margin: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.pay{
+    color:#00457C ;
+    font-weight: bold;
+}
+.pal{
+    color: #0079C1;
+    font-weight: bold;
+}
+.paypal{
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: rgb(226, 226, 12);;
+    border: 2px solid yellow;;
+    box-shadow: inset 0 0 0 0 orange;
+    transition: ease-in-out 1s;
+    
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+    
+}
+.paypal:hover{   
+    cursor: pointer;
+    box-shadow: inset 0 270px 270px 0 orange;
+    
+}
+.gcash{
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: blue;
+    border: 2px solid blue;
+    box-shadow: inset 0 0 0 0 rgb(3, 3, 88);
+    transition: ease-in-out 1s;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    margin: 10px;
+}
+.gcash:hover{   
+    cursor: pointer;
+    box-shadow: inset 0 270px 270px 0 rgb(3, 3, 88);
+    color: white;
+}
+
+/* section2 */
+#donate2{
+    text-align: center;
+    height: 100vh;
+    background-color: #e6e5d9;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    
+}
+.container2 h1{
+    padding: 40px;
+}
+.text{
+    color: #055052;
+    padding: 60px 60px 20px 60px;
+}
+.text h1{
+    padding: 10px;
+}
+.help1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("../images/donate/help1.jpg");
+    background-position: center;
+    box-shadow: inset 0 0 2px 2px #00457C;
+    transition: transform 1s;
+    background-size: cover;
+    color: whitesmoke;
+    height: 60vh;
+    margin: 20px 80px;
+    border-radius: 30px;
+    line-height: 1.5;
+    box-shadow: 0 20px 30px grey;
+}
+.help1:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+
+.help2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url("../images/donate/help2.jpg");
+    background-position: center;
+    box-shadow: inset 0 0 2px 2px #00457C;
+    transition: transform 1s;
+    background-size: cover;
+    color: whitesmoke;
+    height: 60vh;
+    margin: 20px 80px;
+    border-radius: 30px ;
+    line-height: 1.5;
+    box-shadow: 0 20px 30px grey;
+}
+.help2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+
+}

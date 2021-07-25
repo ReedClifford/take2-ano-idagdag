@@ -1,0 +1,533 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+footer{
+    margin-top: 100px;
+    background-color: #003638;
+    text-align: center;
+    padding: 10px;
+    color: #53B8BB;
+}
+#container1{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../images/org/bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(43, 41, 41);
+    height: 10vh;
+    padding: 30px;
+
+
+    
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+   
+
+
+}
+.nav-item{
+    list-style: none;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navlink{
+    text-decoration: none;
+    color: #F3F2C9;
+}
+.navlink:hover{
+    font-size: 1rem;
+    transition: ease-in-out 299ms;
+    text-decoration: underline;
+    color: #53B8BB;
+}
+
+/* MAIN */
+.aboutus{
+    background-color: whitesmoke;
+    padding: 60px;
+    width: 700px;    
+    position: absolute;
+    right: 0;
+    top: 30%;
+    border-radius: 80px 0 0 80px;
+    
+}
+
+.aboutus h1{
+    font-size: 3rem; 
+    color: #055052;
+    font-weight: bold;
+    padding: 20px;
+}
+.aboutus p{
+    font-size: 1.5rem;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* ABOUTUS */
+#container2{
+    height: 100vh;
+    padding: 70px;
+}
+#container2 h1{
+    font-size: 2rem;
+    padding: 20px;
+}
+#container p{
+    padding: 20px;
+    line-height: 1.5;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about1{
+    flex: 1;
+    padding: 40px;
+    color: #003638;
+    border: 20px solid #003638;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 0  40px 50px grey;
+}
+
+
+
+.about2{
+    flex: 2;
+    padding: 30px;
+    background-color: #055052;
+    color:#F3F2C9;
+    margin: 40px;
+    box-shadow: 0 40px 50px grey;
+    
+}
+.about2 p{
+    line-height: 2;
+    font-size: 1.3rem;
+}
+#container3{
+    text-align: center;
+    padding: 70px;
+    height: 100vh;
+    background-color: #003638;
+    color: #F3F2C9;
+}
+#container3 h1{
+    font-size: 2rem;
+}
+.team{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+
+    
+}
+.team h5{
+    
+    margin: 400px auto 20px;
+}
+.box1{
+    margin: 20px;
+    flex: 1;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url("../images/org/nits.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: transform 1s;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px #055052;
+}
+.box1:hover{
+    transform: scale(1.1);
+}
+.box1::after{
+    content: "Let Them Know Someone Cares";
+    background-color: black;
+    display: flex;
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 20px;
+
+}
+.box1:hover::after{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.box2{
+    margin: 20px;
+    flex: 1;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("../images/org/wills.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: transform 1s;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px #055052;
+}
+.box2:hover{
+    transform: scale(1.1);
+}
+.box2::after{
+    content: "You are human beings…. Animals should not be treated inhumanly";
+    background-color: black;
+    font-size: 13px;
+    display: flex;
+    color: whitesmoke;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 20px;
+
+}
+.box2:hover::after{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.box3{
+    margin: 20px;
+    flex: 1;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("../images/org/otero.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: transform 1s;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px #055052;
+}
+.box3::after{
+    content: "Live with them, love them, Laugh with them";
+    background-color: black;
+    display: flex;
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 20px;
+
+}
+.box3:hover{
+    transform: scale(1.1);
+}
+.box3:hover::after{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.box4{
+    margin: 20px;
+    flex: 1;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url("../images/org/reed.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: transform 1s;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px #055153;
+}
+.box4:hover{
+    transform: scale(1.1);
+}
+.box4::after{
+    content: "The ones who have no voice need you to speak up";
+    background-color: black;
+    display: flex;
+    font-size: 13px;
+    color: whitesmoke;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 20px;
+    
+
+}
+.box4:hover::after{
+    opacity: 0.8;
+    cursor: pointer;
+    
+}
+
+/*  POLICIES */
+#container4{
+    height: 100vh;
+    background-image: linear-gradient(rgba(3, 40, 51, 0.85),rgba(0, 0, 0, 0.85)),url("../images/org/policy/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+#container4 h1{
+    font-size: 3rem; 
+    color: #055052;
+    font-weight: bold;
+    padding: 20px;
+}
+#container4 p{
+    font-size: 1.5rem;
+    padding: 20px;
+    line-height: 1.5;
+}
+#container4 a{
+    text-decoration: none;
+    color: #F3F2C9;
+    
+}
+#container4 a:hover{
+    text-decoration: underline;
+}
+
+.policies{
+    background-color: whitesmoke;
+    padding: 60px;
+    width: 700px;    
+    position: absolute;
+    left: 0;
+    top: 30%;
+    border-radius: 0 80px 80px 0;
+
+}
+/* PUPPY MILLS AND RETAIL    */
+#container5{
+    height: 100vh;
+    padding: 50px;
+
+}
+#container5 h1{
+    color: #003638;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 20px;
+    
+}
+#container5 p{
+    line-height: 1.6;
+}
+.polsec1, .polsec2{
+    display: flex;
+    height: 50vh;
+    padding: 20px;
+
+
+}
+.polimage1, .polimage2{
+    flex: 1;    
+}
+.polimage1 img, .polimage2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px grey;
+}
+.politext1, .politext2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* ANIMAL FIGHTING AND ANIMAL LABOR */
+
+
+#container6{
+    height: 100vh;
+    padding: 50px;
+
+}
+#container6 h1{
+    color: #003638;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 20px;
+    
+}
+#container6 p{
+    line-height: 1.6;
+}
+.polsec1, .polsec2{
+    display: flex;
+    height: 50vh;
+    padding: 20px;
+
+
+}
+
+.polsec3, .polsec4{
+    display: flex;
+    height: 50vh;
+    padding: 20px;
+
+
+}
+.polimage3, .polimage4{
+    flex: 1;    
+}
+.polimage3 img, .polimage4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px grey;
+}
+.politext3, .politext4{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* OUR PROGRAMS */
+#container7{
+    margin-top: 50px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(3, 40, 51, 0.85),rgba(0, 0, 0, 0.85)),url("../images/org/prog/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+}
+#container7 h1{
+    font-size: 3rem; 
+    color: #055052;
+    font-weight: bold;
+    padding: 20px;
+}
+#container7 p{
+    font-size: 1.5rem;
+    padding: 20px;
+    line-height: 1.5;
+}
+#container7 a{
+    text-decoration: none;
+    color: #F3F2C9;
+    
+}
+#container7 a:hover{
+    text-decoration: underline;
+}
+
+.programs{
+    background-color: whitesmoke;
+    padding: 60px;
+    width: 700px;    
+    position: absolute;
+    right: 0;
+    top: 30%;
+    border-radius: 80px 0 0 80px;
+
+}
+
+/* CONTAINER8  HUMAN EDUCATION &RESCUE REHAB*/
+#container8{
+    height: 100vh;
+    padding: 50px;
+
+}
+#container8 h1{
+    color: #003638;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 20px;
+    
+}
+#container8 p{
+    line-height: 1.6;
+}
+.progsec1, .progsec2{
+    display: flex;
+    height: 50vh;
+    padding: 20px;
+
+
+}
+.progimage1, .progimage2{
+    flex: 1;    
+}
+.progimage1 img, .progimage2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 16px grey;
+}
+.progtext1, .progtext2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+
